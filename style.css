@@ -1,0 +1,246 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.navbar{
+    box-sizing: border-box;
+    position: sticky;
+    top:0px;
+    padding-inline: 25px;
+    border-bottom: 1px solid rgb(238, 238, 238);
+    height:85px;
+    background-color: white;
+    z-index: 500;
+}
+.logo{
+    /* margin-left: 0px;
+    padding-left: 0px; */
+}
+.vertical-line{
+    border-left: 1px solid rgb(238, 238, 238); ;
+    height: 100%;
+}
+.del-div{
+    padding-top: 1%;
+    line-height:5%;
+
+}
+.del-time{
+    font-weight: 700;
+    
+}
+.address{
+    font-size:x-small;
+    /* color:grey; */
+}
+.search-bar{
+    /* width:100%; */
+    background-color: rgb(248, 248, 248);
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 12px;
+    width:40vw;
+    height:80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-icon{
+    margin-inline: 10px;
+}
+.search{
+    width:100%;
+    border:none;
+    background-color: transparent;
+    font-size: small;
+}
+.search:focus{
+    outline: none;
+}
+.login{
+    text-decoration: none;
+    color:black
+}
+.cart{
+    background-color: rgb(12, 131, 31);
+    border-radius: 8px;
+    cursor: pointer;
+    height: 52px;
+    width: 112px;
+    /* padding:1%; */
+    border:none;
+    color:white;
+    font-weight: 500;
+}
+.popular{
+    overflow-x: auto;
+    margin-inline: auto;
+    width:82vw;
+}
+.popular-list{
+    width:100%;
+    margin-inline:auto;
+    white-space:nowrap;
+}
+.popular-list>div{
+    display: inline-block;
+    margin:5px;
+}
+
+.my-categories{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 85vw;
+    margin-inline: auto;
+}
+
+.my-category-div{
+    width: 85vw;
+    justify-content: center;
+    margin-inline: auto;
+    margin-top: 30px;
+
+}
+
+.my-card{
+    width: 190px;
+    box-sizing: border-box;
+}
+
+.time-taken{
+    font-weight: 700;
+    font-size: 9px;
+    color: rgb(54, 54, 54);
+    width: fit-content;
+    padding:1px 3px ;
+}
+
+.product-name{
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 13px;
+    /* line-height: 18px; */
+    width: 100%;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+
+
+.product-weight{
+    color:#666666;
+    font-size: 11px;
+}
+
+
+.product-price{
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.product-btn{
+    border: 1px solid green;
+    color: rgb(49, 134, 22);
+    border-radius: 6px;
+    background-color: rgb(247, 255, 249);
+    width: 66px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 5px 10px;
+}
+
+.my-category-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.my-footer{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-inline: auto;
+    width: 85vw;
+}
+
+.row-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.row-2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row-2-col-1{
+    width: 30vw;
+}
+
+.row-2-col-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-2-col-2>button{
+    width: 100px;
+    height: 30px;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    background-color: #213b50;
+    margin-inline: 5px;
+}
+
+.row-2-col-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-2-col-3>a{
+    border-radius: 50%;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: 5px;
+}
+.row-3{
+    color:#666666;
+    font-size: 16px;
+    padding: 10px;
+    text-align: justify;
+}
+
+td{
+    padding: 3px 20px;
+    color: #666666;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+tr>th{
+    text-align: center;
+}
+.table-2{
+    flex: 4;
+}
+
+.table-1{
+    flex: 2;
+}
